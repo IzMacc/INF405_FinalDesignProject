@@ -6,7 +6,7 @@ def simple_interest():
     si = (p * r * t) / 100
     total = p + si
     print(f"You will earn ${si:.2f} interest.")
-    prant(f"Final total amount: ${total:.2f}")
+    print(f"Final total amount: ${total:.2f}")
 
 def savings_goal():
     print("Saving Goal")
